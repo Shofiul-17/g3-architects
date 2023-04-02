@@ -7,7 +7,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* =======================
+    /* =======================
     Navigation bar Styles
     ====================== */
     .header{
@@ -26,6 +26,9 @@
         font-weight: 700;
         font-size: 45px;
         color: #131313;
+        /* border: 3px;
+        border-left-style: solid;
+        border-color: #FF900E; */
     }
     nav ul{
         display: flex;
@@ -36,6 +39,15 @@
         gap: 50px;
     }
 
+    /* =============
+        Main Section
+       ============= */
+       main{
+        width: 1920px;
+        height: 1315px;
+        margin: 0;
+       }
+
     /* ====================
         Banner Styles
        ==================== */
@@ -44,7 +56,7 @@
         font-size: 64px;
         color: #131313;
         text-align: center;
-        padding-bottom: 25px;
+        margin: 0 529px 25px 529px;
     }
     .banner-description{
         text-align: center;
@@ -67,5 +79,54 @@
         width: 1440px;
         height: 700px;
         border-radius: 10px;
-        margin: 0 240px 50px 240px;
+        margin: 0 240px;
     }
+
+    /* =========================================
+       Quick list of Our Features Section Styles
+       ========================================= */
+    .quick-list-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 300px 130px 300px;
+    }
+    .list-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    .list-container img{
+        border-radius: 10px;
+    }
+    .text-primary{
+        color: #727272;
+    }
+    .text-secondary{ 
+        color: #FF900E;
+    }
+    .quick-list-title{
+        font-weight: 500;
+        font-size: 45px;
+        color: #131313;
+        margin-bottom: 25px;
+        margin-left: 75px;
+    }
+    .list-description{
+        font-size: 16px;
+        color: #727272;
+        margin-bottom: 35px;
+        margin-left: 75px;
+    }
+    .btn-second{
+        width: 180px;
+        height: 65px;
+        border: 0;
+        background: #FF900E;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-left: 75px;
+    }
+    

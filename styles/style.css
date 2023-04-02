@@ -10,6 +10,12 @@
 /* =======================
     Navigation bar Styles
     ====================== */
+    .header{
+        width: 1920px;
+        height: 1315px;
+        background: #FF900E1A;
+        /* background-color: rgba(255, 144, 14, 0.1); */
+    }
     nav{
         display: flex;
         justify-content: space-between;
@@ -28,4 +34,38 @@
         font-size: 18px;
         color: #424242;
         gap: 50px;
+    }
+
+    /* ====================
+        Banner Styles
+       ==================== */
+    .banner-title{
+        font-weight: 700;
+        font-size: 64px;
+        color: #131313;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .banner-description{
+        text-align: center;
+        font-size: 16px;
+        color: #727272;
+        margin: 0 526px 30px 526px;
+    }
+    .btn-primary{
+        width: 180px;
+        height: 65px;
+        border: 0;
+        background: #FF900E;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin: 0 870px 50px 870px;
+    }
+    .banner img{
+        width: 1440px;
+        height: 700px;
+        border-radius: 10px;
+        margin: 0 240px 50px 240px;
     }

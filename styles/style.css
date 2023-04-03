@@ -7,9 +7,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-    /* =======================
-    Navigation bar Styles
-    ====================== */
+/* =======================
+   Navigation bar Styles
+   ======================= */
     .header{
         width: 1920px;
         height: 1315px;
@@ -39,18 +39,18 @@
         gap: 50px;
     }
 
-    /* =============
-        Main Section
-       ============= */
-       main{
+/* =============
+   Main Section
+   ============= */
+    main{
         width: 1920px;
         height: 1315px;
         margin: 0;
-       }
+    }
 
-    /* ====================
-        Banner Styles
-       ==================== */
+/* ==============
+   Banner Styles
+   ============== */
     .banner-title{
         font-weight: 700;
         font-size: 64px;
@@ -82,9 +82,9 @@
         margin: 0 240px;
     }
 
-    /* =========================================
-       Quick list of Our Features Section Styles
-       ========================================= */
+/* =========================================
+   Quick list of Our Features Section Styles
+   ========================================= */
     .quick-list-section{
         display: flex;
         justify-content: center;
@@ -129,4 +129,79 @@
         color: #FFFFFF;
         margin-left: 75px;
     }
+
+/* =============================================
+   Features you will love & enjoy Section Styles
+   ============================================= */
+   .love-and-enjoy-section{
+        display: flex;
+   }
+   .section-title{
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+        margin: 0 150px 25px 240px;
+        border: 5px;
+        border-left-style: solid;
+        border-color: #FF900E;
+        margin-top: 40px;
+        padding-right: 80px;
+        padding-left: 22px;
+        /* border-inline-start: solid ; */
+        /* border-inline-start-width: 5px; */
+   }
+   .section-description{
+        font-size: 16px;
+        color: #727272;
+        margin: 0 0 30px 140px;
+        padding-right: 10px;
+        margin: 0 150px 30px 240px;
+   }
+   .features-container article{
+        width: 586px;
+        height: 171px;
+        background: #FFFFFF;
+        /* box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06); */
+        box-shadow: 0px 5px 30px #0000000f;
+        border-radius: 10px;
+        margin: 0 150px 20px 240px;
+   }
+    article .article-title{
+        padding: 30px 300px 10px 35px;
+    }
+    article .article-description{
+        padding: 0 40px 30px 30px;
+    }
+    .features-container .article-title{
+        font-weight: 600;
+        font-size: 20px;
+        color: #131313;
+    }
+    .features-container .article-description{
+        font-size: 16px;
+        color: #727272;
+    }
+    .love-and-enjoy-section img{
+        /* margin: 0 240px 0 0; */
+        margin-right: 240px;
+    }
+    .btn-third{
+        position: relative;
+        transform: translate(-27%, -63%);
+        width: 342px;
+        height: 200px;
+        padding: 0;
+        border: 0;
+        border-radius: 10px;
+        background: #FF900E;
+        font-weight: 700;
+        font-size: 65px;
+        color: #FFFFFF;
+    }
+    .experience{
+        font-weight: 500;
+        font-size: 25px;
+        
+    }
+    
     

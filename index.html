@@ -38,7 +38,9 @@
     <!-- Header End -->
     <main>
         <!-- Quick list of Our Features Start -->
-        <!-- section.quick-list-section>.list-container>div>img^div>img^div>img^div>img -->
+        <!-- section.quick-list-section>.list-container>(div>img)*4 -->
+        <!-- section.quick-list-section>.
+            list-container>div>img^div>img^div>img^div>img -->
         <section class="quick-list-section">
             <div class="list-container">
                 <div><img src="images/team1.png" alt=""></div>
@@ -46,7 +48,7 @@
                 <div><img src="images/team3.png" alt=""></div>
                 <div><img src="images/team4.png" alt=""></div>
             </div>
-            <!-- div>h3.quick-list-title+p.list-description+button.btn-primary -->
+            <!-- div>h3.quick-list-title+p.list-description+button.btn-second -->
             <div>
                 <h3 class="quick-list-title"><span class="text-primary">Quick list</span> <strong>of Our</strong> <span class="text-secondary">Features</span></h3>
                 <p class="list-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even</p>
@@ -54,6 +56,36 @@
             </div>
         </section>
         <!-- Quick list of Our Features End -->
+        <!-- Features you will love & enjoy Start -->
+        <!-- section.love-and-enjoy-section>div.features-container>h3.section-title+p.section-description+(article>h5.article-title+p.article-description)*4^div>img+button.btn-third -->
+        <section class="love-and-enjoy-section">
+            <div class="features-container">
+                <h3 class="section-title">Features you will love & enjoy</h3>
+                <p class="section-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even</p>
+                <article>
+                    <h5 class="article-title">Desktop & Mobile Version</h5>
+                    <p class="article-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized...........</p>
+                </article>
+                <article>
+                    <h5 class="article-title">Drag & Drop Builder</h5>
+                    <p class="article-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized...........</p>
+                </article>
+                <article>
+                    <h5 class="article-title">Awesome Modern Design</h5>
+                    <p class="article-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized...........</p>
+                </article>
+                <article>
+                    <h5 class="article-title">Super Easy to Edit</h5>
+                    <p class="article-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized...........</p>
+                </article>
+            </div>
+            <div>
+                <img src="images/architect.png" alt="">
+                <button class="btn-third">10+Year <p class="experience">Experience<!-- <span class="experience">Experience</span> --></p>
+                    </button>
+            </div>
+        </section>
+        <!-- Features you will love & enjoy End -->
     </main>
 </body>
 </html>

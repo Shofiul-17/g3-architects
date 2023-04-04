@@ -26,9 +26,17 @@
         font-weight: 700;
         font-size: 45px;
         color: #131313;
+        border-bottom: 5px solid transparent;
         /* border: 3px;
         border-left-style: solid;
         border-color: #FF900E; */
+    }
+    .nav-title:hover{
+        cursor: pointer;
+        border-bottom: 5px solid #42B7E6;
+        /* text-decoration: underline #42B7E6; */
+        /* text-decoration-color: #42B7E6;   */
+        /* outline: 5px solid #ec6713; */
     }
     nav ul{
         display: flex;
@@ -37,6 +45,16 @@
         font-size: 18px;
         color: #424242;
         gap: 50px;
+    }
+    /* nav ul li{
+        border-bottom: 3px solid transparent;
+    } */
+    nav ul li:hover{
+        text-decoration: 3px underline #42B7E6;
+        /* text-decoration-color: #42B7E6; */
+        /* border-bottom: 3px solid #42B7E6; */
+        cursor: pointer;
+
     }
 
 /* =============
@@ -58,6 +76,11 @@
         text-align: center;
         margin: 0 529px 25px 529px;
     }
+    .banner-title:hover{
+        cursor: pointer;
+        text-decoration: 5px underline;
+        text-decoration-color: #42B7E6;
+    }
     .banner-description{
         text-align: center;
         font-size: 16px;
@@ -74,6 +97,13 @@
         font-size: 20px;
         color: #FFFFFF;
         margin: 0 870px 50px 870px;
+        
+    }
+    .btn-primary:hover, .btn-second:hover, .btn-third:hover, .list-container img:hover, .features-container article:hover{
+        cursor: pointer;
+        border: 5px;
+        outline-style: solid;
+        outline-color: #42B7E6;
     }
     .banner img{
         width: 1440px;
@@ -99,6 +129,12 @@
     .list-container img{
         border-radius: 10px;
     }
+    /* .list-container img:hover{
+        cursor: pointer;
+        border: 5px;
+        outline-style: solid;
+        outline-color: #42B7E6;
+    } */
     .text-primary{
         color: #727272;
     }
@@ -128,6 +164,7 @@
         font-size: 20px;
         color: #FFFFFF;
         margin-left: 75px;
+        /* cursor: pointer; */
     }
 
 /* =============================================
@@ -166,6 +203,12 @@
         border-radius: 10px;
         margin: 0 150px 20px 240px;
    }
+   /* .features-container article:hover{
+    cursor: pointer;
+    border: 5px;
+    outline-style: solid;
+    outline-color: #42B7E6;
+    } */
     article .article-title{
         padding: 30px 300px 10px 35px;
     }
@@ -197,6 +240,7 @@
         font-weight: 700;
         font-size: 65px;
         color: #FFFFFF;
+        /* cursor: pointer; */
     }
     .experience{
         font-weight: 500;

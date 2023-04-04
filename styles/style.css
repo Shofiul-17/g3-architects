@@ -177,15 +177,16 @@
         font-weight: 700;
         font-size: 45px;
         color: #131313;
-        margin: 0 150px 25px 240px;
+        padding-right: 80px;
+        margin: 40px 150px 25px 240px;
+/* ===== Left Border Styles Start ======== */
         border: 5px;
         border-left-style: solid;
         border-color: #FF900E;
-        margin-top: 40px;
-        padding-right: 80px;
         padding-left: 22px;
         /* border-inline-start: solid ; */
         /* border-inline-start-width: 5px; */
+/* ===== Left Border Styles End ======== */
    }
    .section-description{
         font-size: 16px;
@@ -247,5 +248,53 @@
         font-size: 25px;
         
     }
+
+/* ==========================
+   Some Facts Section Styles
+   ========================== */
+   .facts-info-container{
+        display: flex;
+        margin: 100px 290px 0 290px;
+        gap: 125px;
+   }
+   .facts-title{
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+        margin-bottom: 25px;
+        margin-left: 240px;
+   }
+   .facts-description{
+        font-size: 16px;
+        color: #727272;
+        margin: 0 1140px 0 240px;
+   }
+   .facts-info-details{
+        width: 242px;
+        height: 242px;
+        border: 1px solid #FF900E;
+        border-radius: 8px;
+   }
+   .facts-info-details:hover{
+        cursor: pointer;
+        border-color: #42B7E6;
+   }
+   .facts-info-details img{
+        padding: 46px 99px 0 99px;
+   }
+   .info-numbers{
+        text-align: center;
+        font-weight: 600;
+        font-size: 45px;
+        color: #424242;
+        padding-top: 10px;
+        padding-bottom: 5px;
+   }
+   .info-description{
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        color: #727272;
+   }
     
     

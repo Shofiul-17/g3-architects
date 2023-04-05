@@ -296,5 +296,36 @@
         font-size: 20px;
         color: #727272;
    }
+
+/* ===========================
+   Our Sponsors Section Styles
+   =========================== */
+   .sponsors-section{
+        margin-top: 180px;
+   }
+   .sponsors-title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+        margin-bottom: 25px;
+   }
+   .sponsors-description{
+        text-align: center;
+        font-size: 16px;
+        color: #727272;
+        margin: 0 675px 50px 675px;
+   }
+   .sponsors-container{
+        display: flex;
+        justify-content: center;
+        gap: 155px;
+   }
+   .spotify{
+        mix-blend-mode: multiply;
+        
+        /* background: #131313; */
+   }
+   
     
     

@@ -346,4 +346,41 @@
     padding-top: 40px;
    }
     
+
+/* ==================
+   Media Queries
+   ================== */
+
+   /*  Mobile Device */
+   @media only screen and (max-width: 688px){
+    .header{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        padding: 35px;
+       }
+    .nav-title{
+        font-size: 25px;
+    }
+    nav ul{
+        flex-direction: column;
+        padding-top: 15px;
+        gap: 15px;
+    }
+
+    
+   }
+
+   
+
+
+
+
+main, .banner{
+    display: none;
+}
+
+
+
     

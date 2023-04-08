@@ -468,14 +468,27 @@
         width: 50%;
         height: 100px;
         transform: translate(50%, -70%);
-        font-size: 45px;
-        margin-bottom: 50px;
+        font-size: 45px;  
    }
    .experience{
         font-size: 18px;
-        
     }
-   
+
+    /* ===== Some Facts Section responsive Styles start ===== */
+    .facts-info-container{
+        flex-direction: column;
+        margin: 0 65px;
+        gap: 50px;
+   }
+   .facts-title{
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+   }
+   .facts-description{
+        font-size: 14px;
+        margin: 0 50px 35px 20px;
+   }
 
 
 

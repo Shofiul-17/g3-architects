@@ -340,10 +340,10 @@
         margin: 130px 240px 215px 240px;
    }
    footer p{
-    text-align: center;
-    font-size: 20px;
-    color: #424242;
-    padding-top: 40px;
+        text-align: center;
+        font-size: 20px;
+        color: #424242;
+        padding-top: 40px;
    }
     
 
@@ -444,7 +444,7 @@
    }
    .features-container article{
         width: 90%;
-        height: 60%;
+        height: 65%;
         margin-bottom: 10px;
         margin-left: 15px;
    }
@@ -479,6 +479,7 @@
         flex-direction: column;
         margin: 0 65px;
         gap: 50px;
+        transform: translate(5%, 2%);
    }
    .facts-title{
         font-size: 25px;
@@ -491,24 +492,54 @@
    }
 
 
+   /* Our Sponsors Section Responsive Styles Start */
+   .sponsors-section{
+        width: 82%;
+        margin-top: 70px;
+   }
+   .sponsors-title{
+        width: 100%;
+        font-size: 28px;
+        margin-bottom: 20px;
+        padding-left: 45px;
+   }
+   .sponsors-description{
+        width: 100%;
+        font-size: 16px;
+        margin: 0;
+        padding-left: 45px;
+   }
+   .sponsors-container{
+        width: 60%;
+        flex-direction: column;
+        gap: 40px;
+        /* margin: 50px 100px; */
+        padding-bottom: 50px;
+        transform: translate(70%, 15%);
+   }
 
 
-
-    
-
-    
+   /* ===== Footer Start Responsive Styles ===== */
+   footer{
+        width: 100%;
+        margin: 100px 0;
+   }
+   footer p{
+        font-size: 16px;
+        padding-top: 30px;
+   }
    }
 
    
 
 
-.hide{
+/* .hide{
     display: none;
 }
 
  footer{
     display: none;
-}
+} */
 
 
 

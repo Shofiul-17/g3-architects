@@ -353,7 +353,7 @@
 
    /*  =========== Mobile Device =========== */
    @media only screen and (max-width: 688px){
-    /* ===== Navigation Bar responsive Styles start ===== */
+    /* ===== Navigation Bar Section responsive Styles start ===== */
     .header{
         width: 100%;
         height: 50%;
@@ -371,7 +371,7 @@
         gap: 10px;
     }
 
-    /* ===== Banner responsive Styles start ===== */
+    /* ===== Banner Section responsive Styles start ===== */
     .banner-title{
         font-size: 33px;
         margin: 0;
@@ -391,12 +391,12 @@
         margin: 20px 10px;
     }
 
-    /* ===== Main responsive Styles ===== */
+    /* ===== Main Section responsive Styles ===== */
     main{
         width: 100%;
     }
 
-    /* ===== Quick list of Our Features responsive Styles start ===== */
+    /* ===== Quick list of Our Features Section responsive Styles start ===== */
     .quick-list-section{
         width: 100%;
         flex-direction: column;
@@ -410,8 +410,8 @@
     }
     .quick-list-title{
         font-size: 25px;
-        margin: 0;
-        padding: 50px 50px 25px 50px;
+        margin: 50px 50px 15px 50px;
+        /* padding: 50px 50px 15px 50px; */
     }
     .list-description{
         margin: 0 20px 20px 50px;
@@ -419,6 +419,65 @@
     .btn-second{
         margin-left: 50px;
     }
+
+    /* ===== Features you will love & enjoy Section responsive Styles start ===== */
+    .love-and-enjoy-section{
+        flex-direction: column;
+   }
+   .section-title{
+        font-size: 25px;
+        margin: 50px 25px 20px 20px;
+        /* ===== Left Border Styles Start ======== */
+        border: 3px;
+        border-left-style: solid;
+        border-color: #FF900E;
+        padding-left: 11px;
+        /* border-inline-start: solid ; */
+        /* border-inline-start-width: 5px; */
+        /* ===== Left Border Styles End ======== */
+   }
+   .section-description{
+        font-size: 14px;
+        margin: 0;
+        /* margin: 0 50px 30px 20px; */
+        padding: 0 55px 30px 20px;
+   }
+   .features-container article{
+        width: 90%;
+        height: 60%;
+        margin-bottom: 10px;
+        margin-left: 15px;
+   }
+   article .article-title{
+        padding: 10px 80px 10px 15px;
+   }
+   article .article-description{
+        padding: 0 10px 10px 15px;
+   }
+   .features-container .article-title{
+        font-size: 18px;
+   }
+   .features-container .article-description{
+        font-size: 14px;
+   }
+   .love-and-enjoy-section img{
+        width: 88%;
+        margin: 35px 25px;
+   }
+   .btn-third{
+        width: 50%;
+        height: 100px;
+        transform: translate(50%, -70%);
+        font-size: 45px;
+        margin-bottom: 50px;
+   }
+   .experience{
+        font-size: 18px;
+        
+    }
+   
+
+
 
 
 
